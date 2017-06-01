@@ -29,6 +29,7 @@ public class App {
 		HowManySentencesInFile sentencesInFile = new HowManySentencesInFile(fileContent);
 		HowManyLettersInFile lettersInFile = new HowManyLettersInFile(fileContent);
 		HowManyCharactersInFile charactersInFile = new HowManyCharactersInFile(fileContent);
+		OccurrenceOfLettersInFile occurrenceOfLetters = new OccurrenceOfLettersInFile(fileContent);
 
 	}
 
